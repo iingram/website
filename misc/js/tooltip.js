@@ -74,6 +74,7 @@ messages[20] = new Array('misc/images/thumbnails/20.jpg',"");
 messages[21] = new Array('misc/images/thumbnails/21.jpg',"");
 messages[22] = new Array('misc/images/thumbnails/22.jpg',"");
 messages[23] = new Array('misc/images/thumbnails/23.jpg',"");
+messages[24] = new Array('misc/images/thumbnails/24.jpg',"");
 
 ////////////////////  END OF CUSTOMIZATION AREA  ///////////////////
 
