@@ -18,8 +18,8 @@ border-style: none;
 background: none;
 padding: 0px 0px 0px 0px;
 margin: 0px 0px 0px 0px;
-/*border-spacing: 0 25px; if you want gaps between images in projects page*/ 
-border-spacing: 0 0px;
+/*border-spacing: 0 10px; if you want gaps between images in projects page*/ 
+border-spacing: 0 10px;
 }
 
 /*LINK STYLE*/
