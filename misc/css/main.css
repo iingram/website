@@ -103,6 +103,16 @@ background: #FFFFFF;
 overflow: hidden;
 } 
 
+.onePiece #socialmedia {
+width: 140px;
+height: 16px;
+margin: -18px 0px 0px 500px;
+padding: 0px 0px 0px 0px;
+text-align: right; 
+background: #FFFFFF;
+overflow: hidden;
+} 
+
 /*TEXT STYLES*/
 .title {font-size:14px; color:#000000; font-weight:bold;}
 .style1 {font-size:12px; color:#000000; font-weight:normal;}
