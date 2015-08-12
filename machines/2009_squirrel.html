@@ -1,79 +1,95 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <head>
 
-<!--PAGE TITLE-->
-<title>Ian Ingram | Danger, Squirrel Nutkin!, 2009</title>
+        <title>Ian Ingram | Danger, Squirrel Nutkin!, 2009</title>
 
-<!--META-->
-<meta name="Author"	content="Ian Ingram">
-<meta name="Publisher" content="Ian Ingram">
-<meta name="Keywords" content="ian ingram artist animal robot art robotic sculpture robotics roboticist mechatronic communication">
-<meta name="Description" content="Ian Ingram: artist, animal, and robot.">
-<meta name="Abstract" content="This site presents the work of the artist Ian Ingram">
-<meta name="Copyright" 	content="Contents &copy; Ian Ingram 1997-2015.">
-<meta name="Distribution" content="global">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="Author" content="Ian Ingram">
+        <meta name="Publisher" content="Ian Ingram">
+        <meta name="Keywords" content="ian ingram artist animal robot art robotic sculpture robotics roboticist mechatronic communication">
+        <meta name="Description" content="Ian Ingram: artist, animal, and robot.">
+        <meta name="Abstract" content="This site presents the work of the artist Ian Ingram">
+        <meta name="Copyright" content="Contents &copy; Ian Ingram 1997-2015.">
+        <meta name="Distribution" content="global">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!--MAIN STYLE SHEET-->
-<link href="../misc/css/main.css" rel="stylesheet" type="text/css" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,100,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../misc/css/fa/css/font-awesome.min.css">
+        <link href='../misc/css/main.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div id="splash">
+            <div id="header">
+                <div id="name"><a href="index.html">IAN INGRAM</a></div>
+                <div id="nav">
+                    <ul>
+                        <li><a href="../machines.html">PROJECTS</a></li>
+                        <li><a href="../bio.html">BIO</a></li>
+                        <li><a href="../tinkers.html">STATEMENT</a></li>
+                        <li><a href="../contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div id="mobile-nav" class="unselectable" onclick="toggleMobileNav();">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div id="mobile-menu" style="display: none;">
+                    <ul>
+                        <a href="../machines.html"><li>PROJECTS</li></a>
+                        <a href="../bio.html"><li>BIO</li></a>
+                        <a href="../tinkers.html"><li>STATEMENT</li></a>
+                        <a href="../contact.html"><li>CONTACT</li></a>
+                    </ul>
+                    <div id="close-bg"></div>
+                </div>
+            </div>
+            <a href="2009_worm.html" id="project-nav-left">
+                <div id="left-arrow"></div>
+            </a><a href="2010_rock.html" id="project-nav-right">
+                <div id="right-arrow"></div>
+            </a>
+            <div id="content">
+                <div id="mobile-project-nav">
+                    <a href="2009_worm.html">
+                        <div class="mobile-project-nav-button" id="mobile-project-nav-left"><i class="fa fa-angle-left"></i>PREVIOUS</div>
+                    </a>
+                    <a href="2010_rock.html">
+                        <div class="mobile-project-nav-button" id="mobile-project-nav-right">NEXT<i class="fa fa-angle-right"></i></div>
+                    </a>
+                </div>
 
-<!--PRETTYPHOTO-->
-<script src="../misc/js/jquery.js" type="text/javascript" charset="utf-8"></script>
-<link rel="stylesheet" href="../misc/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
-<script src="../misc/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-</head>
+                <div class="projectpage-title">
+                    Danger, Squirrel Nutkin!
+                    <span class="float-right">(2009)</span>
+                    <hr class="spacer">
+                </div>
+                <div class="video-container video-container-16x9">
+                    <iframe src="http://player.vimeo.com/video/45975282?title=0&amp;byline=0&amp;portrait=0&amp;color=111111" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+                <div class="projectpage-description">
+                    <p>Robot that uses computer vision to scan for squirrel predators such as hawks, foxes, and human beings and warns nearby gray squirrels using an amplified version of their own tail-flick alarm signal if it detects them.</p>
 
-<body class="onePiece"><div id="container">
+                    <img src="2009_squirrel/danger-squirrel-nutkin-ian-ingram-04.jpg" alt="Danger, Squirrel Nutkin! Robot art by artist Ian Ingram" class="img-full-width" />
 
-<!--HEADER-->
-<div id="header">
-<a href="../index.html"><img src="../misc/images/header.png"/></a>
-</div>
+                    <img src="2009_squirrel/danger-squirrel-nutkin-ian-ingram-02.jpg" alt="Danger, Squirrel Nutkin! Robot art by artist Ian Ingram" class="img-full-width" />
 
-<!--VIDEO-->
-<div id="video_box">
-<iframe src="http://player.vimeo.com/video/45975282?title=0&amp;byline=0&amp;portrait=0&amp;color=111111" width="640" height="360" frameborder="0"></iframe></div>
-
-
-<!--DESCRIPTION-->
-<div id="description">
-<span class="title">Danger, Squirrel Nutkin!, 2009</span><br>
-Robot that uses computer vision to scan for squirrel predators such as hawks, foxes, and human beings and warns nearby gray squirrels using an amplified version of their own tail-flick alarm signal if it detects them.
-<br><br>
-</div>
-
-<!--PHOTO-->
-<div id="photo_box">
-<a href="2009_squirrel/danger-squirrel-nutkin-ian-ingram-04.jpg" rel="prettyPhoto[pp_gal]">
-<img src="2009_squirrel/danger-squirrel-nutkin-ian-ingram-04.jpg" alt="Danger, Squirrel Nutkin! Robot art by artist Ian Ingram"/></a>
-<a href="2009_squirrel/danger-squirrel-nutkin-ian-ingram-02.jpg" rel="prettyPhoto[pp_gal]"></a>
-<a href="2009_squirrel/danger-squirrel-nutkin-ian-ingram-03.jpg" rel="prettyPhoto[pp_gal]"></a>
-<a href="2009_squirrel/danger-squirrel-nutkin-ian-ingram-01.jpg" rel="prettyPhoto[pp_gal]"></a>
-</div>
+                    <img src="2009_squirrel/danger-squirrel-nutkin-ian-ingram-03.jpg" alt="Danger, Squirrel Nutkin! Robot art by artist Ian Ingram" class="img-full-width" />
 
 
-<!--PICTURES-->
-<div id="pic_box">
-</div>
+                    <img src="2009_squirrel/danger-squirrel-nutkin-ian-ingram-01.jpg" alt="Danger, Squirrel Nutkin! Robot art by artist Ian Ingram" class="img-full-width" />
 
-<!--NAVIGATION-->
-<div id="nav">
-<span class="style2">
-<a href="../machines.html">PROJECTS</a> ||
-<a href="../tinkers.html">STATEMENT</a>  ||
-<a href="../contact.html">CONTACT</a></span>
-</div>
 
-<!--COPYRIGHT-->
-<div id="copyright">
-<img src="../misc/images/copyright.png" width="140" height="11"/>
-</div>
-
-<!--PRETTYPHOTO SCRIPT-->
-<script type="text/javascript" charset="utf-8">
-$(document).ready(function(){$("a[rel^='prettyPhoto']").prettyPhoto({theme:'facebook'});});
-</script>
-
-</div></body>
+                </div>
+            </div>
+            <div id="footer2">
+                <ul>
+                    <li><a href="http://twitter.com/ian__ingram" target="_blank" title="Ian Ingram's Twitter"><i class="fa fa-twitter-square"></i></a></li>
+                    <li><a href="http://www.vimeo.com/ianingram/" target="_blank" title="Ian Ingram's Vimeo"><i class="fa fa-vimeo-square"></i></a></li>
+                    <li><a href="http://www.youtube.com/user/iingram" target="_blank" title="Ian Ingram's YouTube"><i class="fa fa-youtube-square"></i></a></li>
+                    <li><a href="https://www.facebook.com/ianlionelhenryingram" target="_blank" title="Ian Ingram's Facebook Page"><i class="fa fa-facebook-square"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <script src="../misc/js/main.js"></script>
+    </body>
 </html>
