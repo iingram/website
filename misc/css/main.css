@@ -13,6 +13,8 @@ p > a {
     color: #6298FF;
 }
 
+a { text-decoration : none; color : #000; }
+
 #splash {
     position: absolute;
     left: 0;
