@@ -1,3 +1,6 @@
+- add to little bottom-of-page spiel a list of the exhibitions each
+  piece has been in? or maybe just the highlight exhibition.
+  something like "Exhibited at the Nikolaj Kunsthal in Copenhagen, Denmark"
 - Break out another project page that is On Beyond Mother Goose as the
   gallery piece so that Duck, Duck, Goose has a page and OBMG has one
 - Add a page for So Interesting
