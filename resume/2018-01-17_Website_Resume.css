@@ -1,0 +1,49 @@
+/* Century Schoolbook font is very similar to Computer Modern Math: cmmi */
+.MATH    { font-family: "Century Schoolbook", serif; }
+.MATH I  { font-family: "Century Schoolbook", serif; font-style: italic }
+.BOLDMATH { font-family: "Century Schoolbook", serif; font-weight: bold }
+
+
+margin-top:100px;
+margin-bottom:100px;
+margin-right:50px;
+margin-left:50px;
+
+/* implement both fixed-size and relative sizes */
+/* SMALL.XTINY		{ font-size : xx-small } */
+/* SMALL.TINY		{ font-size : x-small  } */
+/* SMALL.SCRIPTSIZE	{ font-size : smaller  } */
+/* SMALL.FOOTNOTESIZE	{ font-size : small    } */
+/* SMALL.SMALL		{  } */
+/* BIG.LARGE		{  } */
+/* BIG.XLARGE		{ font-size : large    } */
+/* BIG.XXLARGE		{ font-size : x-large  } */
+/* BIG.HUGE		{ font-size : larger   } */
+/* BIG.XHUGE		{ font-size : xx-large } */
+
+SMALL.XTINY		{ font-size : xx-small }
+SMALL.TINY		{ font-size : x-small  }
+SMALL.SCRIPTSIZE	{ font-size : smaller  }
+SMALL.FOOTNOTESIZE	{ font-size : small    }
+SMALL.SMALL		{  }
+BIG.LARGE		{  }
+BIG.XLARGE		{ font-size : small    }
+BIG.XXLARGE		{ font-size : small  }
+BIG.HUGE		{ font-size : small   }
+BIG.XHUGE		{ font-size : small }
+
+/* heading styles */
+H1		{font-size : large  }
+H2		{font-size : smaller  }
+H3		{font-size : smaller}
+H4		{font-size : smaller}
+H5		{font-size : smaller}
+
+/* mathematics styles */
+DIV.displaymath		{ }	/* math displays */
+TD.eqno			{ }	/* equation-number cells */
+
+
+/* document-specific styles come next */
+DIV.navigation		{   }
+SPAN.arabic		{   }
