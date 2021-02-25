@@ -480,6 +480,10 @@ a { text-decoration : none; color : #000; }
     padding-bottom: 56.25%;
 }
 
+.video-container-9x16 {
+    padding-bottom: 100%;
+}
+
 .video-container iframe {
     position: absolute;
     top: 0;
